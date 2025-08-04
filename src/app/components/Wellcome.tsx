@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 export default function Wellcome() {
 
     return (
@@ -9,6 +10,8 @@ export default function Wellcome() {
             </p>
 
             <button><a href="/about">About</a></button>
+
+            <Button label="Clique aqui"  />
 
         </div>
     )
