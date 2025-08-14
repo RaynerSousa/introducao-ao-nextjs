@@ -2,7 +2,7 @@ import Wellcome from "./components/Wellcome";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-gray-500">
 
       <Wellcome />
       
