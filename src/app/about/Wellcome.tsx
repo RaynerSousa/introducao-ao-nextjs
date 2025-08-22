@@ -1,14 +1,11 @@
+"use client";
+import React from "react";
+import LikeButton from "../components/LikeButton";
 
-export default function Wellcome() {
-    return(
-        <div>
-            <h1>Seja bem vindo ao primeiro site de NEXT-JS</h1>
-            <p>
-                Essa é a primeira pagina,tentando entender como funcionas os conponentes do next.js
-            </p>
-
-            <button><a href="/about">about</a></button>
-
-        </div>
-    )
+export default function Wellco() {
+  return (
+    <div>
+        <LikeButton/>
+    </div>
+  )
 }
