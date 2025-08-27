@@ -1,6 +1,7 @@
 import Wellcome from "./components/Wellcome";
 import MiniDisplay from "./components/Display";
 import LikeButton from "./components/LikeButton";
+import { ListaDeCompras } from "./components/ListaDeCompras";
 import LikButton from "./components/BotaoReproducao";
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
         {/* <Wellcome /> */}
         {/* <MiniDisplay/> */}
         {/* <LikeButton /> */}
-        <LikButton/>
+        {/* <LikButton/> */}
+        <ListaDeCompras/>
+        
       </div>
     </div>
   );
