@@ -3,6 +3,9 @@ import MiniDisplay from "./components/Display";
 import LikeButton from "./components/LikeButton";
 import { ListaDeCompras } from "./components/ListaDeCompras";
 import LikButton from "./components/BotaoReproducao";
+import { ToggleDark } from "./components/ToggleDark";
+
+  
 
 export default function Home() {
   return (
@@ -12,7 +15,8 @@ export default function Home() {
         {/* <MiniDisplay/> */}
         {/* <LikeButton /> */}
         {/* <LikButton/> */}
-        <ListaDeCompras/>
+        {/* <ListaDeCompras/> */}
+        {/* <ToggleDark onToggle={}/> */}
         
       </div>
     </div>
