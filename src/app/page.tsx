@@ -7,6 +7,7 @@ import { ToggleDark } from "./components/ToggleDark";
 import { Browser } from "leaflet";
 import { Card } from "./components/RevCard";
 import { BrowserRouter  , Routes , Route  } from "react-router-dom";
+import Counter from "./components/ContLikeButton";
   
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
         </Routes>
         </BrowserRouter> */}
       </div>
-
+{/* 
           <div className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100 gap-6">
             <Card
               title="Montanhas da Noruega"
@@ -44,6 +45,10 @@ export default function Home() {
               description="Um lago cristalino rodeado por florestas."
               img="/por-do-sol.jpg"
             />
+          </div> */}
+
+          <div>
+            <Counter initial={0}/>
           </div>
     </div>
 
