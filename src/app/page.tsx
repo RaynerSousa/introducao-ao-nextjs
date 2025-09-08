@@ -8,6 +8,7 @@ import { Browser } from "leaflet";
 import { Card } from "./components/RevCard";
 import { BrowserRouter  , Routes , Route  } from "react-router-dom";
 import Counter from "./components/ContLikeButton";
+import Lampada from "./components/Lampada";
   
 
 export default function Home() {
@@ -47,8 +48,11 @@ export default function Home() {
             />
           </div> */}
 
-          <div>
+          {/* <div>
             <Counter initial={0}/>
+          </div> */}
+          <div>
+            <Lampada/>
           </div>
     </div>
 
