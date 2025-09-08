@@ -1,5 +1,5 @@
 import Wellcome from "./components/Wellcome";
-import MiniDisplay from "./components/Display";
+import MiniDisplay from "./components/MineDisplay";
 import LikeButton from "./components/LikeButton";
 import { ListaDeCompras } from "./components/ListaDeCompras";
 import LikButton from "./components/BotaoReproducao";
@@ -13,11 +13,14 @@ import Lampada from "./components/Lampada";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-180 bg-gray-600">
+
+    <div className="flex justify-center items-center h-180 bg-blue-900 ">
+    main
       <div>
         {/* <Wellcome /> */}
         {/* <MiniDisplay/> */}
         {/* <LikeButton /> */}
+      
         {/* <LikButton/> */}
         {/* <ListaDeCompras/> */}
         {/* <ToggleDark onToggle={}/> */}
@@ -32,7 +35,7 @@ export default function Home() {
 
           </Route>
         </Routes>
-        </BrowserRouter> */}
+        </BrowserRouter> */} main
       </div>
 {/* 
           <div className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100 gap-6">
@@ -54,6 +57,7 @@ export default function Home() {
           <div>
             <Lampada/>
           </div>
+        <MiniDisplay/>
     </div>
 
     
