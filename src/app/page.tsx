@@ -10,10 +10,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Counter from "./components/ContLikeButton";
 import Lampada from "./components/Lampada";
 import ProductsPage from "./products/pages";
+import ServerClient from "./ServerClient/pages";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-180 bg-blue-900 ">
+    <div className="flex justify-center items-center h-180  ">
       <div>
         {/* <Wellcome /> */}
         {/* <MiniDisplay/> */}
@@ -52,7 +53,10 @@ export default function Home() {
         {/* <Lampada /> */}
       {/* <MiniDisplay /> */}
 
-      <ProductsPage/>
+      {/* <ProductsPage/> */}
+
+      {/* <ServerClient/> */}
+      <ServerClient/>    
 
     </div>
   );
