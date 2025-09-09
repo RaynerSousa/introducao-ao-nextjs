@@ -6,27 +6,21 @@ import LikButton from "./components/BotaoReproducao";
 import { ToggleDark } from "./components/ToggleDark";
 import { Browser } from "leaflet";
 import { Card } from "./components/RevCard";
-import { BrowserRouter  , Routes , Route  } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Counter from "./components/ContLikeButton";
 import Lampada from "./components/Lampada";
-  
 
 export default function Home() {
   return (
-
     <div className="flex justify-center items-center h-180 bg-blue-900 ">
-    main
       <div>
         {/* <Wellcome /> */}
         {/* <MiniDisplay/> */}
         {/* <LikeButton /> */}
-      
+
         {/* <LikButton/> */}
         {/* <ListaDeCompras/> */}
         {/* <ToggleDark onToggle={}/> */}
-
-        
-        
 
         {/* <BrowserRouter>
         <Routes>
@@ -35,9 +29,9 @@ export default function Home() {
 
           </Route>
         </Routes>
-        </BrowserRouter> */} main
+        </BrowserRouter> */}
       </div>
-{/* 
+      {/* 
           <div className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100 gap-6">
             <Card
               title="Montanhas da Noruega"
@@ -51,15 +45,14 @@ export default function Home() {
             />
           </div> */}
 
-          {/* <div>
+      {/* <div>
             <Counter initial={0}/>
           </div> */}
-          <div>
-            <Lampada/>
-          </div>
-        <MiniDisplay/>
-    </div>
+        {/* <Lampada /> */}
+      {/* <MiniDisplay /> */}
 
-    
+
+
+    </div>
   );
 }
