@@ -9,6 +9,7 @@ import { Card } from "./components/RevCard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Counter from "./components/ContLikeButton";
 import Lampada from "./components/Lampada";
+import ProductsPage from "./products/pages";
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
         {/* <Lampada /> */}
       {/* <MiniDisplay /> */}
 
-
+      <ProductsPage/>
 
     </div>
   );
